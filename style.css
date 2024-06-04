@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(35, 34, 34);
+}
+.a {
+    justify-content: center;
+    margin: 30px;
+    border: 0 solid red;
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.estilo_flex{
+    align-items: center;
+    display:flex;
+    border-radius: 5px;
+    border: 0 solid red;
+    font-family: Arial;
+    color: white;
+    font-size:smaller;
+   
+}
+img{
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+p{
+    margin: 7px;
+    text-align:justify ;
+    font-family: Arial;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.kamillex{
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin:30px;
+    border-radius: 5px;
+}

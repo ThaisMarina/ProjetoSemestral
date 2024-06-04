@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBA7B2;
+}
+@font-face {
+    font-family: Ballet;
+    src: url(../FONT/juicebox_script/JuiceboxScript_PERSONAL_USE_ONLY.otf);
+}
+
+.container{
+    width: 100%;
+    height: 3400px;
+}
+p{
+    color:black;
+}
+
+/*MENU */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 120px;
+   
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    list-style-type: none;
+    margin-left: 50px;
+    color: black;
+    
+}
+.ballet1{
+    font-family: "Ballet";
+    font-size: 30px;
+}
+.ballet1:hover{
+    color:#db128e;
+}
+
+a{
+text-decoration: none;
+}
+
+.divisao{
+    width: 100%;
+    height: 2100px;
+}
+
+footer{
+
+    width: 100%;
+    height:700px;
+    object-fit: cover;
+    background-image: url(../IMG/loguuu\ nova\ 4.png);
+    background-repeat: no-repeat;
+   
+} 
+
+.fundoInicial {
+    width: 100%;
+    height: 800px;
+    border: 3px solid#DB128E;
+    background-image: url('../IMG/banner\ ballet.png');
+    background-size: cover;
+}
+.form{
+    font-size: 20px;
+    color:#DB128E;
+}
+
+
+.enviar{
+    color:#DB128E;
+    background-color: white;
+}
+
+
+.estado{
+    color:#DB128E;
+}
+
+
+.cidades{
+    color:#DB128E;
+}
+
+
+.linha{
+    background-color: #DB128E;
+}
+
+
+input{
+    color:#DB128E;
+}
+
+.a {
+    justify-content: center;
+    margin: 30px;
+    height: 1950px;
+    border: 4 solid #DB128E;
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.estilo_flex{
+    align-items: center;
+    display:flex;
+    border-radius: 5px;
+    border: 0 solid #DB128E;
+    font-family: Arial;
+    color: white;
+    font-size:smaller;
+   
+}
+img{
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+p{
+    margin: 7px;
+    text-align:justify;
+    font-family: Arial;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.kamillex{
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin:30px;
+    border-radius: 5px;
+}
+.kamillex:hover{
+    transform: scale(1.1);
+}
+h3:hover{
+    color: #DB128E;
+}
+
+.bolinha{
+    width: 100%;
+    height: 645px;
+    border: 3px solid #DB128E;
+}
+h1:hover{
+    color:black;
+}
+
+button{
+    border: 2px solid #DB128E;
+    margin-left: 1300px;
+   margin-bottom: 100px;
+   background-color: #DB128E;
+   color: black;
+   border: 2px solid black;
+   border-radius: 5px;
+   text-decoration: none;
+   
+}
+
+button:hover{
+    color:black
+}
+.brilho{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1300px;
+    background-color: #DB128E;
+    border-radius: 5px;
+    border: 3px solid black;
+    width: 140px;
+}
+
+@media (max-width: 1399.98px) { 
+    .fundoInicial {
+        width: 1400px;
+        height: 800px;
+        border: 3px solid#DB128E;
+        background-image: url('../IMG/banner\ ballet.png');
+        background-size: cover;
+    }
+
+    .estilo_flex{
+        width: 1200px;
+        align-items: center;
+        display:flex;
+        border-radius: 5px;
+        border: 0 solid #DB128E;
+        font-family: Arial;
+        color: white;
+        font-size:smaller;
+        border: 2px solid red;
+    }
+
+    .kamillex{
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        display: block;
+        margin:30px;
+        border-radius: 5px;
+         img{
+            border: 35px;
+            width: 200px;
+         }
+    }
+    .kamillex:hover{
+        transform: scale(1.1);
+
+        footer{
+
+            width: 1600px;
+            height: auto;
+            object-fit: cover;
+            background-image: url(../IMG/loguuu\ nova\ 4.png);
+           
+           
+           
+        } 
+}
